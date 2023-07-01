@@ -1,9 +1,6 @@
 import PropTypes from 'prop-types';
 import ImageGalleryItem from 'components/ImageGalleryItem/ImageGalleryItem';
-
 import StyledUl from './ImageGallery.styled';
-// import PropTypes from 'prop-types'
-
 
 export const ImageGallery = ({ photos, toggleModal}) => {
   return (
@@ -28,8 +25,6 @@ export const ImageGallery = ({ photos, toggleModal}) => {
 
   );
 };
-
-
 
 ImageGallery.propTypes = {
     photos: PropTypes.arrayOf(PropTypes.shape({
